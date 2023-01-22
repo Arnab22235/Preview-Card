@@ -1,0 +1,283 @@
+/* mobile design */
+
+@media screen and (min-width: 375px)
+{
+    .back{
+        background-color: hsl(233, 47%, 7%);
+        height: 120vh;
+        width: 99vw;
+        padding-top: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .box{
+        margin-top: 20px;
+        margin-right: 6px;
+        height: 100vh;
+        width: 98vw;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: hsl(244, 38%, 16%);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .image{
+        background: rgba(71, 16, 108, 0.7) url('./images/image-header-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 100%;
+        height: 30%; 
+    }
+
+    .textbox{
+        background-size: cover;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .head{
+        font-family: 'Inter', sans-serif;
+        font-weight:600;
+        font-size: xx-large;
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font:bolder;
+        text-align: center;
+    }
+
+    .des{
+        color: hsl(277, 64%, 61%);
+        font:bolder;
+        margin-top: 15px;
+        margin-left: 8px;
+        font-family: 'Inter', sans-serif;
+        font-weight:600;
+        font-size: xx-large;
+    }
+
+    .para{
+        color: hsla(0, 0%, 100%, 0.6);
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: smaller;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 15px;
+        line-height: 440px;
+    }
+
+    .com{
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+        margin-left: 165px;
+    }
+     .n1{
+        color: hsl(0, 0%, 100%);
+        font-size: larger;
+        font-weight:bold;
+     }
+     .p1{
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size:x-small;
+     }
+    
+     .temp{
+        margin-top: 18px;
+        margin-left: 165px;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+     }
+    
+     .n2{
+        color: hsl(0, 0%, 100%);
+        font-size: larger;
+        font-weight:bold;
+     }
+     .p2{
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size:x-small;
+     }
+    
+     .quer{
+        margin-top: 18px;
+        margin-left: 165px;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+     }
+    
+     .n3{
+        color: hsl(0, 0%, 100%);
+        font-size: larger;
+        font-weight:bold;
+     }
+     .p3{
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size:x-small;
+     }
+} 
+
+
+
+@media screen and (min-width: 1440px)
+{
+
+.back{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    width: 350vw;
+    padding-top: 110px;
+    padding-left: 210px;
+}
+.box{
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textbox{
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: xx-large;
+    color: hsl(0, 0%, 100%);
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 78px;
+    font:bolder;
+}
+
+.des{
+    color: hsl(277, 64%, 61%);
+    font:bolder;
+    margin-top: 15px;
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: xx-large;
+}
+
+.para{
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 25px;
+    margin-left: 95px;
+    margin-right: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: smaller;
+    line-height: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.com{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    margin-left: 80px;
+}
+ .n1{
+    color: hsl(0, 0%, 100%);
+    font-size: larger;
+    font-weight:bold;
+ }
+ .p1{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:x-small;
+ }
+
+ .temp{
+    margin-left: 80px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+ }
+
+ .n2{
+    color: hsl(0, 0%, 100%);
+    font-size: larger;
+    font-weight:bold;
+ }
+ .p2{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:x-small;
+ }
+
+ .quer{
+    margin-left: 75px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+ }
+
+ .n3{
+    color: hsl(0, 0%, 100%);
+    font-size: larger;
+    font-weight:bold;
+ }
+ .p3{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:x-small;
+ }
+
+ .image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgba(71, 16, 108, 0.7) url('./images/image-header-desktop.jpg');
+    background-blend-mode: darken;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 100%;
+    width: 50%; 
+}
+}
+
